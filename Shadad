@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Shadad Darkala</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        
+        body {
+            background: #f0f0f0;
+            color: #333;
+            line-height: 1.5;
+            padding: 20px;
+        }
+        
+        .cv-container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 30px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #2c3e50;
+        }
+        
+        .header h1 {
+            font-size: 28px;
+            margin-bottom: 10px;
+            color: #2c3e50;
+        }
+        
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-top: 10px;
+        }
+        
+        .section {
+            margin-bottom: 25px;
+        }
+        
+        .section-title {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #2c3e50;
+            padding-bottom: 5px;
+            border-bottom: 1px solid #ddd;
+        }
+        
+        .experience-item {
+            margin-bottom: 15px;
+        }
+        
+        .job-title {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        
+        .company-date {
+            color: #666;
+            margin-bottom: 5px;
+            font-size: 14px;
+        }
+        
+        ul {
+            padding-left: 20px;
+            margin-top: 5px;
+        }
+        
+        li {
+            margin-bottom: 3px;
+        }
+        
+        .skills-list {
+            columns: 2;
+            list-style-type: none;
+            padding-left: 0;
+        }
+        
+        .skills-list li {
+            margin-bottom: 8px;
+            position: relative;
+            padding-left: 15px;
+        }
+        
+        .skills-list li:before {
+            content: "•";
+            color: #2c3e50;
+            position: absolute;
+            left: 0;
+        }
+        
+        @media print {
+            body {
+                background: white;
+                padding: 0;
+            }
+            
+            .cv-container {
+                box-shadow: none;
+                padding: 20px;
+            }
+        }
+        
+        @media (max-width: 600px) {
+            .skills-list {
+                columns: 1;
+            }
+            
+            .contact-info {
+                flex-direction: column;
+                gap: 5px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="cv-container">
+        <div class="header">
+            <h1>SHADAD DARKALA</h1>
+            <div class="contact-info">
+                <div>06 04 08 40 94</div>
+                <div>darkala.shadad@yahoo.com</div>
+                <div>44800 Saint-Herblain</div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2 class="section-title">PROFIL PROFESSIONNEL</h2>
+            <p>Ouvrier polyvalent du bâtiment avec une solide expérience dans les chantiers de construction et la maintenance. Compétent dans la gestion des tâches, le respect strict des consignes de sécurité, et l'entretien efficace des sites.</p>
+        </div>
+        
+        <div class="section">
+            <h2 class="section-title">EXPÉRIENCES PROFESSIONNELLES</h2>
+            
+            <div class="experience-item">
+                <div class="job-title">Ouvrier Polyvalent – Chantier E.M.U.</div>
+                <div class="company-date">04/2024 – 12/2024 | Saint-Herblain</div>
+                <ul>
+                    <li>Préparation du chantier et entretien</li>
+                    <li>Respect des règles de sécurité</li>
+                </ul>
+            </div>
+            
+            <div class="experience-item">
+                <div class="job-title">Ouvrier du bâtiment – Chantier d'Insertion ATAO</div>
+                <div class="company-date">10/2023 – 11/2023 | Nantes</div>
+                <ul>
+                    <li>Préparation et nettoyage des constructions avant livraison</li>
+                    <li>Nettoyage des fenêtres, sols et couloirs</li>
+                </ul>
+            </div>
+            
+            <div class="experience-item">
+                <div class="job-title">Manœuvre bâtiment – Intérim</div>
+                <div class="company-date">05/2022 – 08/2022 | Nantes</div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2 class="section-title">COMPÉTENCES</h2>
+            <ul class="skills-list">
+                <li>Entretien et nettoyage de chantier</li>
+                <li>Gestes et postures professionnels</li>
+                <li>Respect strict des règles de sécurité et d'hygiène</li>
+                <li>Capacité d'adaptation</li>
+                <li>Rigueur et motivation</li>
+            </ul>
+        </div>
+        
+        <div class="section">
+            <h2 class="section-title">FORMATION</h2>
+            <div class="experience-item">
+                <div class="job-title">Découverte des métiers du bâtiment et linguistique</div>
+                <div class="company-date">Espaces Formation | Nantes</div>
+                <div class="company-date">Depuis décembre 2023</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
